@@ -45,9 +45,9 @@ Data
 I change and add some file to train my data.
 1. mmdet\datasets\voc.py and xml_style.py
 2. mmdet\core\evaluation\class_names.py
-3. configs\_base_\datasets\voc0712.py
-4. configs\_base_\schedules\schedule_1x.py
-5. configs\_base_\default_runtime.py
+3. configs\\_base_\datasets\voc0712.py
+4. configs\\_base_\schedules\schedule_1x.py
+5. configs\\_base_\default_runtime.py
 6. configs\faster_rcnn\faster_rcnn_r50_fpn_1x_voc.py
 
 You can train the data by following:
