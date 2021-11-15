@@ -11,7 +11,6 @@ The following specs were used to create the original solution.
 
 ## Reproducing Submission
 
-*   [Requirements](#Requirements)
 *   [Download Models](#Download-Models)
 *   [Make Submission](#Make-Submission)
 
