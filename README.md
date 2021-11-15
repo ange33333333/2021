@@ -1,6 +1,4 @@
 # 2021-VRDL_HW2
-OpenMMLab Detection Toolbox and Benchmark
-
 Visual Recognition using Deep Learning HW2
 
 ##  Hardware
