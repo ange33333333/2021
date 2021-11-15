@@ -14,7 +14,6 @@ The following specs were used to create the original solution.
 *   [Download Models](#Download-Models)
 *   [Make Submission](#Make-Submission)
 
-
 ## Requirements
 
 ```train
@@ -23,50 +22,42 @@ pip3 install -r requirements.txt
 ```
 
 ## Dataset Preparation
-You can download the data on the Codalab website：https://competitions.codalab.org/competitions/35668?secret_key=09789b13-35ec-4928-ac0f-6c86631dda07#participate-get_starting_kit
+You can download the data on the google drive：https://drive.google.com/drive/folders/1aRWnNvirWHXXXpPPfcWlHQuzGJdXagoc
 
 Label 
 ```label
-  training_labels.txt
+  digitStruct.mat
 ```
 
 Data
 ```data
-  +- training_images
-    +- 0003.jpg
-    +- 0008.jpg
+  +- train
+    +- 1.png
+    +- 2.png
     ...
-  +- testing_images
-    +- 0001.jpg
-    +- 0002.jpg
+  +- test
+    +- 117.png
+    +- 162.png
     ...
-```
-
-Classes predict
-
-```predict
-  classes.txt
-  testing_img_order.txt
 ```
 
 ## Training
 
-You need to download Preprocessing.py, and then run the model by following:
+You can train the data by following:
 
 ```train
-$ python3 Train.py
+$ python tools/train.py ./configs/pascal_voc/faster_rcnn_r50_fpn_1x_voc0712.py
 ```
 
 ## Download Models
 
 You can download my models here:
 
-- https://drive.google.com/drive/u/1/folders/14ik-vMLMJNqJ781JZSzMhLXi6fjwUPwn
+- 
 
 ## Make Submission
 
-You can get the predict result by following:
+You can get the predict result on google colab:
 
-```eval
-$ python3 Predict.py
-```
+-
+
