@@ -45,7 +45,7 @@ You need to change digitStruct.mat to xml(VOC2007), and then divide the data.
 You can do it by running：
 
 ```Data Preprocessing
-Data Preprocessing.
+Data Preprocessing.ipynb
 ```
 
 ## Training
