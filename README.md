@@ -40,6 +40,13 @@ Data
     +- 162.png
     ...
 ```
+## Data Preprocessing
+You need to change digitStruct.mat to xml(VOC2007), and then divide the data.
+You can do it by running：
+
+```Data Preprocessing
+Data Preprocessing.
+```
 
 ## Training
 I change and add some file to train my data.
