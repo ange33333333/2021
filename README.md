@@ -61,3 +61,6 @@ You can get the predict result on google colab:
 
 -
 
+## Reference
+
+-https://github.com/open-mmlab/mmdetection
