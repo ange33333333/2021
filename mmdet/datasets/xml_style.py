@@ -24,7 +24,7 @@ class XMLDataset(CustomDataset):
 
     def __init__(self,
                  min_size=None,
-                 img_subdir='JPEGImages',
+                 img_subdir='PNGImages',
                  ann_subdir='Annotations',
                  **kwargs):
         assert self.CLASSES or kwargs.get(
@@ -48,7 +48,7 @@ class XMLDataset(CustomDataset):
         data_infos = []
         img_ids = mmcv.list_from_file(ann_file)
         for img_id in img_ids:
-            filename = osp.join(self.img_subdir, f'{img_id}.jpg')
+            filename = osp.join(self.img_subdir, f'{img_id}.png')
             xml_path = osp.join(self.img_prefix, self.ann_subdir,
                                 f'{img_id}.xml')
             tree = ET.parse(xml_path)
@@ -58,7 +58,7 @@ class XMLDataset(CustomDataset):
                 width = int(size.find('width').text)
                 height = int(size.find('height').text)
             else:
-                img_path = osp.join(self.img_prefix, filename)
+                img_path = osp.join(self.img_prefix, 'PNGImages', filename)
                 img = Image.open(img_path)
                 width, height = img.size
             data_infos.append(
