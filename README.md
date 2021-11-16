@@ -1,5 +1,4 @@
 # 2021-VRDL_HW2
-Visual Recognition using Deep Learning HW2
 
 ##  Hardware
 
