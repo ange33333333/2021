@@ -94,4 +94,4 @@ You need to upload models to google drive,and then You can get the predict resul
 
 ## Reference
 
--https://github.com/open-mmlab/mmdetection
+- https://github.com/open-mmlab/mmdetection
