@@ -32,7 +32,8 @@ pip3 install -r requirements.txt
 
 ## Dataset Preparation
 You can download the data on the google drive：https://drive.google.com/drive/folders/1aRWnNvirWHXXXpPPfcWlHQuzGJdXagoc.
-You need to change train file name to PNGImages, and then put them at file 2021-VRDL_HW2\data\VOCdevkit\VOC2007\ .
+
+You need to change train file name to PNGImages, and then put it at file 2021-VRDL_HW2\data\VOCdevkit\VOC2007\ ,and you also need to create folder 2021-VRDL_HW2\data\VOCdevkit\VOC2007\ImageSets\Main .
 
 Label 
 ```label
