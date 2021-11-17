@@ -44,8 +44,14 @@ Data
 You need to change digitStruct.mat to xml(VOC2007), and then divide the data.
 You can do it by running：
 
+Convert to VOC2007
 ```Data Preprocessing
-Data Preprocessing.ipynb
+$ python mat_to_xml.py
+```
+
+Split the data
+```Data Preprocessing
+$ python xml_to_txt.py
 ```
 
 ## Training
