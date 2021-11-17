@@ -13,7 +13,7 @@ The following specs were used to create the original solution.
 *   [Download Models](#Download-Models)
 *   [Make Submission](#Make-Submission)
 
-# Download my project
+## Download my project
 
 ```download
 # python version: Python 3.7.11
