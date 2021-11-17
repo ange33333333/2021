@@ -13,6 +13,16 @@ The following specs were used to create the original solution.
 *   [Download Models](#Download-Models)
 *   [Make Submission](#Make-Submission)
 
+# Download my project
+
+```download
+# python version: Python 3.7.11
+$ git clone https://github.com/ange33333333/2021-VRDL_HW2.git
+$ cd 2021-VRDL_HW2
+$ pip install mmcv-full
+$ pip install -e .
+```
+
 ## Requirements
 
 ```train
@@ -77,7 +87,7 @@ You can download my models here:
 
 ## Make Submission
 
-You can get the predict result on google colab:
+You need to upload models to google drive,and then You can get the predict result on google colab:
 
 -
 
