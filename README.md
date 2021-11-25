@@ -91,7 +91,7 @@ You can download my models here:
 
 You need to upload models to google drive,and then You can get the predict result on google colab:
 
-- https://colab.research.google.com/drive/1Cw8HTSCYtH2ufjA0BYIMCgAcyuHIvD_Q?authuser=1
+- https://drive.google.com/file/d/1Cw8HTSCYtH2ufjA0BYIMCgAcyuHIvD_Q/view?usp=sharing
 
 ## Reference
 
