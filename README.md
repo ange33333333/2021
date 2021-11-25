@@ -73,7 +73,7 @@ I change and add some file to train my data.
 3. configs\\_base_\\datasets\voc0712.py
 4. configs\\_base_\\schedules\schedule_1x.py
 5. configs\\_base_\\default_runtime.py
-6. configs\faster_rcnn\faster_rcnn_r50_fpn_1x_voc.py
+6. configs\cascade_rcnn\cascade_rcnn_r50_fpn_1x_voc.py 
 
 You can train the data by following:
 
