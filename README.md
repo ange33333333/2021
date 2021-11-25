@@ -28,7 +28,7 @@ $ pip install -e .
 
 ```train
 # python version: Python 3.7.11
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Dataset Preparation
