@@ -77,7 +77,7 @@ I change and add some file to train my data.
 You can train the data by following:
 
 ```train
-$ python tools/train.py ./configs/pascal_voc/faster_rcnn_r50_fpn_1x_voc0712.py
+$ python tools/train.py ./configs/cascade_rcnn/cascade_rcnn_r50_fpn_1x_voc.py
 ```
 
 ## Download Models
