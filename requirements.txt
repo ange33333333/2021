@@ -2,4 +2,4 @@
 -r requirements/optional.txt
 -r requirements/runtime.txt
 -r requirements/tests.txt
--r requirements/torch.txt
+-r requirements/myrequirement.txt
