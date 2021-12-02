@@ -99,7 +99,10 @@ You can download my models here:
 You need to download models, and put them at work_dirs\mask_rcnn_r101_fpn_1x_coco folder or change your path.
 You can get the predict result by following:
 
-- python predict.py
+```train
+# python version: Python 3.8
+python predict.py
+```
 
 ## Reference
 
