@@ -100,7 +100,6 @@ You need to download models, and put them at work_dirs\mask_rcnn_r101_fpn_1x_coc
 You can get the predict result by following:
 
 ```train
-# python version: Python 3.8
 python predict.py
 ```
 
