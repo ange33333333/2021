@@ -12,13 +12,13 @@ checkpoint = "work_dirs/mask_rcnn_r50_fpn_1x_coco/101_800_epoch_100.pth"
 
 # 2. Initialize the model
 model = init_detector(config, checkpoint, device="cuda:0")
-with open("data/coco/test/test_img_ids.json") as f:
+with open("dataset/test_img_ids.json") as f:
     data = json.load(f)
 
 test_id = {}
 i = 0
-for image in glob.glob("data/coco/test/" + "*.png"):
-    test_image = image.replace("data/coco/test\\", "")
+for image in glob.glob("dataset/test/" + "*.png"):
+    test_image = image.replace("dataset/test\\", "")
     test_id[data[i]["file_name"]] = data[i]["id"]
     i += 1
 print(test_id)
@@ -27,10 +27,10 @@ print(test_id)
 result_to_json = []
 
 # for each test image
-for image in glob.glob("data/coco/test/" + "*.png"):
-    img_name = image.replace("data/coco/test\\", "")
+for image in glob.glob("ddataset/test/" + "*.png"):
+    img_name = image.replace("dataset/test\\", "")
     image_id = test_id[img_name]
-    img_path = os.path.join("data/coco/test/", img_name)
+    img_path = os.path.join("dataset/test/", img_name)
     img = cv2.imread(img_path)
     pred = inference_detector(model, img)
     print(img_name)
