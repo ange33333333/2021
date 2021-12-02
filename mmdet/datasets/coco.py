@@ -20,7 +20,7 @@ from .custom import CustomDataset
 @DATASETS.register_module()
 class CocoDataset(CustomDataset):
 
-    CLASSES = ('Nucleus')
+    CLASSES = ('Nucleus',)
 
     def load_annotations(self, ann_file):
         """Load annotation from COCO style annotation file.
