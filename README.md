@@ -5,9 +5,8 @@ Visual Recognition using Deep Learning HW2
 
 The following specs were used to create the original solution.
 
-* Windows 10 Home
-* AMD Ryzen™ 7 4800H Processor 2.9 GHz
-* NVIDIA® GeForce RTX™ 3050 
+* Ubuntu 18.04.4 LTS
+* NVIDIA® GeForce RTX™ 3090
 
 ## Reproducing Submission
 
