@@ -8,7 +8,7 @@ from pycocotools.mask import encode, decode
 
 # 1. Load your model and weights
 config = "work_dirs/mask_rcnn_r50_fpn_1x_coco/mask_rcnn_r101_fpn_1x_coco.py"
-checkpoint = "work_dirs/mask_rcnn_r50_fpn_1x_coco/101_800_epoch_100.pth"
+checkpoint = "work_dirs/mask_rcnn_r50_fpn_1x_coco/epoch_200.pth"
 
 # 2. Initialize the model
 model = init_detector(config, checkpoint, device="cuda:0")
