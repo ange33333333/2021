@@ -28,7 +28,7 @@ result_to_json = []
 
 # for each test image
 for image in glob.glob("dataset/test/" + "*.png"):
-    img_name = image.replace("dataset/test\\", "")
+    img_name = image.replace("dataset/test/", "")
     image_id = test_id[img_name]
     img_path = os.path.join("dataset/test/", img_name)
     img = cv2.imread(img_path)
