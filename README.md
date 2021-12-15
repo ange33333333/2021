@@ -17,8 +17,8 @@ The following specs were used to create the original solution.
 
 ```download
 # python version: Python 3.8
-$ git clone https://github.com/ange33333333/2021-VRDL_HW2.git
-$ cd 2021-VRDL_HW2
+$ git clone https://github.com/ange33333333/2021-VRDL_HW3.git
+$ cd 2021-VRDL_HW3
 $ pip install mmcv-full
 $ pip install -e .
 ```
