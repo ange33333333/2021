@@ -67,7 +67,6 @@ Data
 You need to change mask image to annotations(.json), and divide the data.
 You can do it by running：
 
-Convert to VOC2007
 ```Data Preprocessing
 $ python data_preprocessing.py
 ```
