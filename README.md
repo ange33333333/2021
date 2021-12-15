@@ -1,4 +1,4 @@
-# 2021-VRDL_HW3
+# 2021_VRDL-HW3
 Visual Recognition using Deep Learning HW3
 
 ##  Hardware
